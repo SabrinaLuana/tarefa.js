@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Documento</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+
+    <div class="main">
+        <div class="titulo">
+            <h4>Quem Descobriu o Brasil?</h4>
+        </div>
+        
+
+        <div class="tudo">
+            <div class="resp" id="respostas">
+                <p>Pedro Álvares Cabral</p>
+            </div>
+            <div class="resp" id="respostas2">
+                <p>Selena Gomes</p>
+            </div>
+            <div class="resp" id="respostas3">
+                <p>Shrek</p>
+            </div>
+            <div class="resp" id="respostas4">
+                <p>Pudim</p>
+            </div>
+            <div class="resp" id="respostas5">
+                <p>Raposas</p>
+            </div>
+        </div>
+    </div>
+
+    <script>
+
+        var a = document.getElementById("respostas");
+        
+        a.addEventListener('click', a1);
+        function a1() {
+            a.innerHTML = "Resposta Certa"
+            a.style.backgroundColor = "green";
+        }
+
+
+        var b = document.getElementById("respostas2");
+        b.addEventListener('click', b1);
+        function b1() {
+            b.innerHTML = "Resposta Errada"
+            b.style.backgroundColor = "Red";
+        }
+
+        var c = document.getElementById("respostas3");
+        c.addEventListener('click', c1);
+        function c1() {
+            c.innerHTML = "Resposta Errada"
+            c.style.backgroundColor = "Red";
+        }
+
+        var d = document.getElementById("respostas4");
+        d.addEventListener('click', d1);
+        function d1() {
+            d.innerHTML = "Resposta Errada"
+            d.style.backgroundColor = "Red";
+        }
+
+        var e = document.getElementById("respostas5");
+        e.addEventListener('click', e1);
+        function e1() {
+            e.innerHTML = "Resposta Errada"
+            e.style.backgroundColor = "Red";
+        }
+
+
+
+    </script>
+    
+</body>
+</html>
